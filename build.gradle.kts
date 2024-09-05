@@ -5,11 +5,12 @@ plugins {
 
 repositories {
     mavenCentral()
+    mavenLocal()
 }
 
 dependencies {
     testImplementation(kotlin("test-junit"))
-    testImplementation("org.jetbrains.kotlinx:lincheck:2.33")
+    testImplementation("org.jetbrains.kotlinx:lincheck:2.34")
 }
 
 java {
